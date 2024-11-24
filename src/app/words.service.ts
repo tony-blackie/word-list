@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { API_ROUTES } from '../constants';
 
 export interface Word {
   text: string;
